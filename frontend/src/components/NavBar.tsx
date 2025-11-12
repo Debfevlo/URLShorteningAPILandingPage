@@ -1,18 +1,22 @@
 import logo from '../assets/images/logo.svg'
+import { RxHamburgerMenu } from "react-icons/rx";
 
-const HeroSection = () => {
+const NavBar = () => {
   return (
     <div className='flex w-[1100px] mx-auto justify-between py-8'>
         <div className='flex gap-8 items-center'>
              <img src={logo} alt="" />
-             <ul className='flex gap-4 text-base font-semibold text-Gray-500'>
+             <ul className='hidden md:flex gap-4 text-base font-semibold text-Gray-500'>
                 <li>Features</li>
                 <li>Pricing</li>
                 <li>Resources</li>
              </ul>
+             <button className='block md:hidden w-48'>
+              <RxHamburgerMenu className='mx-auto' size={24}/>
+             </button>
         </div>
 
-        <div className='space-x-8'>
+        <div className='space-x-8 hidden md:block'>
             <button className='text-Gray-500 font-semibold'>Login</button>
             <button className='px-6 py-2 bg-Blue text-white rounded-full'>SignUp</button>
         </div>
@@ -21,4 +25,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default NavBar
