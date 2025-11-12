@@ -2,8 +2,8 @@ import logo from '../assets/images/logo.svg'
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const NavBar = () => {
-  return (
-    <div className='flex w-[1100px] mx-auto justify-between py-8'>
+  return ( 
+    <div className='flex justify-between items-center '>
         <div className='flex gap-8 items-center'>
              <img src={logo} alt="" />
              <ul className='hidden md:flex gap-4 text-base font-semibold text-Gray-500'>
@@ -11,10 +11,11 @@ const NavBar = () => {
                 <li>Pricing</li>
                 <li>Resources</li>
              </ul>
-             <button className='block md:hidden w-48'>
-              <RxHamburgerMenu className='mx-auto' size={24}/>
-             </button>
         </div>
+
+        <button className='block md:hidden'>
+              <RxHamburgerMenu className='' size={32}/>
+             </button>
 
         <div className='space-x-8 hidden md:block'>
             <button className='text-Gray-500 font-semibold'>Login</button>
