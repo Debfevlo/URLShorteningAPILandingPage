@@ -1,14 +1,13 @@
 import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
+import StatisticsDashboard from "./components/StatisticsDashboard"
 
 const App = () => {
   return (
-    <div className=" px-6 py-8 md:px-20 md:py-8">
-
-    
+    <div>
     <NavBar/>
     <HeroSection/>
-    
+    <StatisticsDashboard/>
    </div>
     
    

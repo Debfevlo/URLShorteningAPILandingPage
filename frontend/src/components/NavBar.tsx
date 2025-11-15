@@ -3,7 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const NavBar = () => {
   return ( 
-    <div className='flex justify-between items-center '>
+    <div className='flex justify-between items-center px-6 py-8 md:px-20 md:py-8'>
         <div className='flex gap-8 items-center'>
              <img src={logo} alt="" />
              <ul className='hidden md:flex gap-4 text-base font-semibold text-Gray-500'>
