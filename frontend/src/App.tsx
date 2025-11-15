@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
+import SearchBar from "./components/SearchBar"
 import StatisticsDashboard from "./components/StatisticsDashboard"
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
     <NavBar/>
     <HeroSection/>
+    <SearchBar/>
     <StatisticsDashboard/>
    </div>
     

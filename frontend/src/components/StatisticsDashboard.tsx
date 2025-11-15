@@ -30,7 +30,7 @@ const dashboardList =[
 
 const StatisticsDashboard = () => {
   return (
-    <div className="bg-gray-300 px-6  md:px-20 md:mt-12 mt-6 md:py-28 py-16 text-center">
+    <div className="bg-gray-300 px-6  md:px-20 md:mt-12 mt-6 py-32  text-center">
         <p className="font-bold text-4xl text-Gray-950">Advance Statistics</p>
         <p className="text-md mt-5 text-gray-600">Track how your links are performing across the web with <br /> our advance statistics dashboard</p>
         <div className='flex flex-col md:flex-row gap-20 md:gap-10   py-16 mt-12 items-center justify-center'>
