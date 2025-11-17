@@ -1,4 +1,5 @@
 import Banner from "./components/Banner"
+import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
 import SearchBar from "./components/SearchBar"
@@ -12,6 +13,7 @@ const App = () => {
     <SearchBar/>
     <StatisticsDashboard/>
     <Banner/>
+    <Footer/>
    </div>
     
    

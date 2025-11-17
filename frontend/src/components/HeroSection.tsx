@@ -9,7 +9,7 @@ const HeroSection = () => {
             <p className='text-Gray-500 text-xl md:text-lg text-center font-semibold md:text-left '>Build your brand's recognition and get detailed <br /> insight on how your links are performing </p>
            </div>
             <div className='text-center text-2xl md:text-base md:text-left'>
-                <button className='px-12 py-4 md:px-8 md:py-4  bg-Blue text-white rounded-full'>Get Started</button>
+                <button className='px-12 py-4 md:px-8 md:py-4  bg-Blue text-white rounded-full hover:bg-Purple hover:scale-105'>Get Started</button>
             </div>
         </div>
         <div className=''>

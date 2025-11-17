@@ -11,7 +11,7 @@ const SearchBar = () => {
         placeholder="Shorten a link here ..." 
       />
     </div>
-    <button className="px-4 md:px-8 py-4 bg-Blue text-white rounded-xl font-bold w-[250px] md:w-[150px] ">Shorten It !</button>
+    <button className="px-4 md:px-8 py-4 bg-Blue text-white rounded-xl font-bold w-[250px] md:w-[150px] hover:cursor-pointer hover:scale-105">Shorten It !</button>
     </div>
   )
 }
