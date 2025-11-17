@@ -2,7 +2,7 @@ import heroImg from '../assets/images/illustration-working.svg'
 
 const HeroSection = () => {
   return (
-    <div className='flex flex-col-reverse md:flex-row mt-10 items-center justify-between px-6 py-8 md:px-20 md:py-8'>
+    <div className='flex flex-col-reverse md:flex-row mt-10 items-center justify-between px-6  md:px-20 py-4'>
         <div className='mt-10 md:mt-0 space-y-8'>
            <div className='space-y-4'>
              <h1 className='text-5xl md:text-6xl font-bold text-Gray-900 text-center md:text-left '>More than just <br /> shorter links</h1>

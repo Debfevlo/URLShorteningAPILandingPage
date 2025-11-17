@@ -1,3 +1,4 @@
+import Banner from "./components/Banner"
 import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
 import SearchBar from "./components/SearchBar"
@@ -10,6 +11,7 @@ const App = () => {
     <HeroSection/>
     <SearchBar/>
     <StatisticsDashboard/>
+    <Banner/>
    </div>
     
    
